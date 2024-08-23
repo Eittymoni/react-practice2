@@ -1,0 +1,111 @@
+#project{
+    padding-top: 128px;
+}
+.project_top{
+    padding-bottom: 100px;
+}
+#project .project_top h2{
+    font-family: poppins;
+    font-size: 48px;
+    font-weight: 600;
+}
+#project .project_top a{
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400; 
+    color:#282938 ;
+}
+.project_main{
+    padding-bottom: 100px;
+}
+.project_main_left{
+    position: relative;
+}
+
+.half-hover{
+    position: absolute;
+    content: '';
+    left: 0%;
+    top: 0%;
+    width:  420px;
+    height: 600px;
+    background-color: rgb(28, 30, 83, 0.520);
+    transition: 0.5s;
+    }
+   .project_main_left:hover .half-hover{
+    width: 855px;
+   }
+   .half-hover h3{
+    margin-top: 312px;
+    margin-left: 48px;
+    margin-right: 38px; 
+    font-family: poppins;
+      font-size: 24px;
+      font-weight: 600; 
+      color:#fff ; 
+      max-width: 313px;
+      padding-bottom: 16px;
+  }
+  .half-hover p{
+      margin-left: 48px;
+      margin-right: 38px; 
+      font-family: poppins;
+        font-size: 16px;
+        font-weight: 600; 
+        color:#fff ; 
+        max-width: 293px;
+        line-height: 1.5;
+  }
+  .half-hover a{
+    text-decoration: none;
+      margin-left: 48px;
+      margin-right: 38px; 
+      font-family: poppins;
+        font-size: 16px;
+        font-weight: 600; 
+        color:#FCD980 ; 
+  }
+  .project_main_right{
+    position: relative;
+  }
+  .hover h3{
+    /* margin-top: 129px;
+    margin-left: 56px;
+    margin-right: 36px; */
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 600; 
+    color:#fff ; 
+    max-width: 292px;
+    max-height: 72px;
+    /* padding-bottom: 10px; */
+    position: absolute;
+    left: 15%;
+    bottom: 30%;
+}    
+.hover a{
+    font-family: poppins;
+      font-size: 16px;
+      font-weight: 600; 
+      color:#FCD980 ;
+      /* margin-left: 56px;  */
+      position: absolute;
+      left: 15%;
+      bottom: 20%;    
+}    
+.hover{
+    position: absolute;
+    content: '';
+    top: 0%;
+    left: 0%;
+    width: 0px;
+    height:284px;
+    background-color: rgb(28, 30, 83, 0.520);
+    transition: 0.5s;
+    opacity: 0;
+}
+.project_main_right:hover .hover{
+    width: 405px;
+    opacity: 1;
+}

@@ -1,0 +1,21 @@
+.manu-bg{
+    background-color: #1C1E53!important; 
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    z-index: 1;  
+}
+
+    .manu a{
+        padding: 15px 16px !important;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff !important;
+        transition: 0.5s;
+        text-decoration: none;
+    }
+    .manu a:hover{
+        color:#FCD980! important;
+    }

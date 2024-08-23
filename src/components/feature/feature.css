@@ -1,0 +1,39 @@
+#feature{
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: #F4F6FC;
+}
+.feature_top{
+padding-bottom: 50px;
+}
+.feature_top h5{
+    text-align: center;
+    color: #282938;
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: 600; 
+}
+.feature_top h2{
+    text-align: center;
+    color: #282938;
+    font-family: poppins;
+    font-size: 48px;
+    font-weight: 600; 
+    padding-left: 20px;
+}
+.feature_card{
+    background-color: white;
+    padding: 50px;
+}
+.feature_card h3{
+   
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 600;  
+}
+.feature_card p{
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;  
+    padding-bottom: 48px;
+}
